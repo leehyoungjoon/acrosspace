@@ -1,0 +1,148 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: pink;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+}
+.firstback {
+  height: 900px;
+  background-image: url(./01.banner.jpg);
+  background-size: cover;
+  position: relative;
+}
+.backcover {
+  background-color: #233069;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.toplogo {
+  display: flex;
+  justify-content: end;
+  height: 50px;
+  padding-right: 70px;
+}
+.logo {
+  width: 300px;
+  height: 40px;
+}
+.mainlogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  color: #ffff;
+  font-size: 80px;
+  font-weight: bold;
+}
+.maincomment {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.highlight {
+  font-weight: 700;
+}
+.secondback {
+  background-color: rgb(85, 182, 251);
+  height: 677px;
+  display: flex;
+  justify-content: center;
+}
+.secondback {
+  display: flex;
+  justify-content: center;
+}
+.margin {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.right {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.leftlogo {
+  height: 470px;
+  width: 700px;
+}
+
+.rightlogo {
+  height: 400px;
+  width: 500px;
+}
+.rightcomment {
+  color: #fff;
+  position: absolute;
+  top: 190px;
+  left: 50px;
+  line-height: 1.75;
+}
+.buglogo {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  top: 300px;
+  left: 150px;
+}
+.thirdback {
+  height: 900px;
+  background-image: url(background_img2.svg);
+  position: relative;
+  background-color: #2b293d;
+}
+.secondbackcover {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logowrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  position: relative;
+}
+.thirdlogo {
+  height: 300px;
+  width: 50%;
+  color: #fff;
+}
+.thirdcomment {
+  color: #fff;
+  line-height: 1.75;
+  font-size: 600;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -50px;
+}
+.thirdroket {
+  text-align: center;
+  margin-top: 168px;
+}
+.rocketimage {
+  height: 200px;
+  width: 650px;
+}
+.footer {
+  color: #c9c9c9;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
